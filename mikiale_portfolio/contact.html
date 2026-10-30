@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Mikiale Goitom Yitbarek, a Software Engineering student.">
+  <title>Contact Me | Mikiale Goitom Yitbarek</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <p>Questions, feedback, or project ideas? You can reach me using the details below.</p>
+    
+<nav aria-label="Main navigation">
+  <a href="index.html">Home</a> |
+  <a href="about.html">About Me</a> |
+  <a href="skills.html">Skills &amp; Education</a> |
+  <a href="projects.html">Projects &amp; Achievements</a> |
+  <a href="media.html">My Media &amp; Interests</a> |
+  <a href="contact.html">Contact Me</a>
+</nav>
+
+  </header>
+  <main>
+
+    <section>
+      <h2>Contact Information</h2>
+      <address>
+        <p>Email: <a href="mailto:mikigoitom18@gmail.com">mikigoitom18@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/mikil18" target="_blank" rel="noopener">@mikil18</a></p>
+        <p>Phone: <a href="tel:+251954018481">+251 954 018 481</a></p>
+      </address>
+      <p><strong>Privacy note:</strong> This page will be public if you publish the website. Consider whether you want your personal phone number and email address visible to everyone.</p>
+    </section>
+
+    <section>
+      <h2>Send Me a Message</h2>
+      <form action="mailto:mikigoitom18@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <p>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="Full name" placeholder="Enter your full name" required minlength="2">
+          </p>
+          <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="Email" placeholder="you@example.com" required>
+          </p>
+          <p>
+            <label for="phone">Phone Number (optional):</label><br>
+            <input type="tel" id="phone" name="Phone" placeholder="+251 9XX XXX XXX">
+          </p>
+          <p>
+            <label for="website">Your Website (optional):</label><br>
+            <input type="url" id="website" name="Website" placeholder="https://example.com">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Message Details</legend>
+          <p>
+            <label for="subject">Subject:</label><br>
+            <select id="subject" name="Subject" required>
+              <option value="">-- Select a subject --</option>
+              <option value="General question">General question</option>
+              <option value="Project discussion">Project discussion</option>
+              <option value="Feedback">Website feedback</option>
+              <option value="Collaboration">Collaboration</option>
+            </select>
+          </p>
+          <p>How did you find my website?</p>
+          <input type="radio" id="search" name="Found website through" value="Search engine">
+          <label for="search">Search Engine</label><br>
+          <input type="radio" id="social" name="Found website through" value="Social media">
+          <label for="social">Social Media</label><br>
+          <input type="radio" id="friend" name="Found website through" value="Friend or colleague">
+          <label for="friend">Friend or Colleague</label>
+          <p>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="Message" rows="6" cols="45" placeholder="Write your message here..." required minlength="10"></textarea>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Optional Information</legend>
+          <p>
+            <label for="contact-date">Preferred Contact Date:</label><br>
+            <input type="date" id="contact-date" name="Preferred contact date">
+          </p>
+          <p>
+            <label for="colour">Choose a Favourite Color:</label><br>
+            <input type="color" id="colour" name="Favourite colour" value="#336699">
+          </p>
+          <p>
+            <label for="rating">Rate My Website (1–10):</label><br>
+            <input type="number" id="rating" name="Website rating" min="1" max="10">
+          </p>
+          <p>
+            <input type="checkbox" id="reply" name="Reply requested" value="Yes">
+            <label for="reply">I would like a reply to my message.</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Submit Message</button>
+          <button type="reset">Clear Form</button>
+        </p>
+      </form>
+      <p><em>Note: This simple HTML mail form opens the visitor's configured email application. A working website form that sends messages automatically requires a server-side form service or backend.</em></p>
+    </section>
+
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2026 Mikiale Goitom Yitbarek. Personal portfolio.</p>
+    <p><a href="index.html">Return to Home</a></p>
+  </footer>
+</body>
+</html>
